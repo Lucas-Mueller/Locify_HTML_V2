@@ -1,0 +1,190 @@
+.myguidetennet1 {
+  font-size: inherit;
+  width: 1215px;
+  height: 77px;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 700;
+  display: inline-block;
+  position: absolute;
+  top: 295px;
+  left: calc(50% - 632px);
+}
+
+.user-picture {
+  cursor: pointer;
+  border-radius: var(--br-256xl);
+  background-color: #0000;
+  background-image: url("pexelsthisisengineering386144711@3x.bbbe5ec2.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  position: absolute;
+  top: 43px;
+  right: 60px;
+}
+
+.tutorial-child1, .tutorial-child2, .tutorial-child3 {
+  width: 77.69%;
+  max-width: 100%;
+  height: 37.25%;
+  max-height: 100%;
+  position: absolute;
+  inset: 16.79% 11.16% 45.96%;
+  overflow: hidden;
+}
+
+.tutorial-child2, .tutorial-child3 {
+  width: 4.48%;
+  height: 21.14%;
+  inset: 33.18% 12.34% 45.68% 83.18%;
+}
+
+.tutorial-child3 {
+  width: 50.31%;
+  height: 33.64%;
+  inset: 41.51% 24.84% 24.84%;
+}
+
+.tutorial1 {
+  cursor: pointer;
+  background-color: #0000;
+  border: 0;
+  width: 67px;
+  height: 67px;
+  padding: 0;
+  position: absolute;
+  top: 65px;
+  left: 1661px;
+}
+
+.tennet-logo-icon1 {
+  object-fit: cover;
+  width: 300px;
+  height: 61.36px;
+  position: absolute;
+  top: 66px;
+  left: 158px;
+}
+
+.functionality1 {
+  cursor: pointer;
+  background-color: var(--color-gainsboro);
+  border: 0;
+  width: 39px;
+  height: 41px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.favorites-icon1 {
+  width: 42px;
+  height: 37px;
+  position: absolute;
+  top: 2.5px;
+  left: -1.5px;
+}
+
+.favorite-button1 {
+  cursor: pointer;
+  width: 39px;
+  height: 41px;
+  position: absolute;
+  top: 77px;
+  left: 1590px;
+}
+
+.user-input {
+  font-weight: 600;
+  font-family: var(--font-roboto);
+  box-sizing: border-box;
+  color: FFFFFF;
+  background-color: #0000;
+  border: 1.2px solid #004594;
+  border-radius: 7.29px;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  height: 85px;
+  padding: 36.4286px 48.5714px;
+  font-size: 18px;
+  display: flex;
+}
+
+.search-text {
+  letter-spacing: 1.21px;
+  font-size: 21.86px;
+  font-weight: 600;
+  line-height: 26.71px;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  position: relative;
+}
+
+.search-button {
+  cursor: pointer;
+  background-color: #25ab75;
+  border: 0;
+  border-radius: 12.14px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 29.1429px 52.2143px;
+  display: flex;
+}
+
+.search-button:hover {
+  background-color: #188759;
+}
+
+.search-page, .searchbar {
+  background-color: var(--color-white);
+}
+
+.searchbar {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25.5px;
+  width: 902.21px;
+  display: flex;
+  position: absolute;
+  top: 520px;
+  left: 561px;
+}
+
+.search-page {
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--font-inter);
+  width: 100%;
+  height: 2012px;
+  position: relative;
+  overflow-x: auto;
+}
+
+@media screen and (width <= 960px) {
+  .user-input {
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .search-button {
+    width: 100%;
+  }
+
+  .searchbar {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=search-page.ff82ed9a.css.map */
